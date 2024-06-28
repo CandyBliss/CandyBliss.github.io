@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>学习 on CandyBliss</title>
+        <link>https://CandyBliss.github.io/categories/%E5%AD%A6%E4%B9%A0/</link>
+        <description>Recent content in 学习 on CandyBliss</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <lastBuildDate>Fri, 28 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://CandyBliss.github.io/categories/%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>计组复习简答题总结</title>
+        <link>https://CandyBliss.github.io/p/%E8%AE%A1%E7%BB%84%E5%A4%8D%E4%B9%A0%E7%AE%80%E7%AD%94%E9%A2%98%E6%80%BB%E7%BB%93/</link>
+        <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://CandyBliss.github.io/p/%E8%AE%A1%E7%BB%84%E5%A4%8D%E4%B9%A0%E7%AE%80%E7%AD%94%E9%A2%98%E6%80%BB%E7%BB%93/</guid>
+        <description>&lt;h1 id=&#34;简答题&#34;&gt;简答题
+&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;CPU中有哪几类主要寄存器，并用一句话回答其功能。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;==答：==数据寄存器(DR)；指令寄存器(IR)；程序计数器(PC)；数据地址寄存器(AR)；通用寄存器(R_0~R_3)；状态字寄存器(PSW)。
+==功能：==执行指令、操作、时间控制以及数据加工。&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;指令和数据都用二进制代码存放在内存中，从时空角度回答CPU如何区分读出的代码是指令还是数据？&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;==答：==时间上，取值周期从内存中取出的是指令，执行周期从内存取出或写入的是数据；空间上，从内存中取出送往控制器的是指令，从内存中取出送往运算器的是数据。&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;==&lt;strong&gt;简述64位安腾处理机的体系结构主要特点&lt;/strong&gt;==（考的几率极其大）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;==答：==显示并行计算技术；超长指令字技术；分支推断技术；推测技术；软件流水技术；寄存器堆栈技术。&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;分布式仲裁器的逻辑示意图。&lt;img src=&#34;https://CandyBliss.github.io/fc5c9f8e8c233d2cbb3924c74dc9b8f.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;fc5c9f8e8c233d2cbb3924c74dc9b8f&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;列表比较CISC处理机和RISC处理机&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;比较内容&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;CISC&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;RISC&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;指令系统&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;复杂、庞大&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;简单、精简&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;指令数目&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;一般大于200&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;一般小于100&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;指令格式&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;一般大于4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;一般小于4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;寻址方式&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;一般大于4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;一般小于4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;指令字长&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;不固定&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;等长&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;可访存指令&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;不加限定&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;只有LOAD/STORE指令&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;各种指令使用频率&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;相差不大&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;相差不大&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;各种指令执行时间&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;相差很大&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;绝大多数在一个周期内完成&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;优化编译实现&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;很难&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;较容易&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;程序源代码长度&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;较短&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;较长&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;控制器实现方式&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;绝大多数微程序控制&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;绝大部分是硬布线控制&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;软件系统开发时间&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;较短&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;较长&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;PCI总线三种桥的名称？简述其功能&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;==答：==HOST/PCI桥(简称HOST桥)；PCI/PCI桥；PCI/LAGACY桥
+==桥的功能：==连接两条线，使总线间相互通信；桥是一个总线转换部件，可以把一条总线的地址空间映射到另一条总线的地址空间上，从而使系统中任意一个总线主设备都能看到同样的一份地址表；利用桥可以实现总线间的猝发式传送；桥有信号的缓冲组等，能力和信号电平转换功能；它还可以完成规程转换、数据块存化、装拆数据分。&lt;/p&gt;
+&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;计算机系统的层次结构&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;等级&lt;/th&gt;
+&lt;th&gt;层次&lt;/th&gt;
+&lt;th&gt;组成&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;5级&lt;/td&gt;
+&lt;td&gt;高级语言级&lt;/td&gt;
+&lt;td&gt;编译程序&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4级&lt;/td&gt;
+&lt;td&gt;汇编语言级&lt;/td&gt;
+&lt;td&gt;汇编程序&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3级&lt;/td&gt;
+&lt;td&gt;操作系统级&lt;/td&gt;
+&lt;td&gt;操作系统&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2级&lt;/td&gt;
+&lt;td&gt;一般机器级&lt;/td&gt;
+&lt;td&gt;微程序&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1级&lt;/td&gt;
+&lt;td&gt;微程序设计级&lt;/td&gt;
+&lt;td&gt;直接由硬件执行&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ol start=&#34;8&#34;&gt;
+&lt;li&gt;简述水平型微指令和垂直型微指令的特点&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;方面&lt;/th&gt;
+&lt;th&gt;水平型微指令&lt;/th&gt;
+&lt;th&gt;垂直型微指令&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;并行操作&lt;/td&gt;
+&lt;td&gt;强，效力高，灵活性强&lt;/td&gt;
+&lt;td&gt;较差&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;执行一条指令时间&lt;/td&gt;
+&lt;td&gt;短&lt;/td&gt;
+&lt;td&gt;长&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;解析指令&lt;/td&gt;
+&lt;td&gt;微指令字长而微程序短&lt;/td&gt;
+&lt;td&gt;微指令字短而微程序长&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;用户掌握&lt;/td&gt;
+&lt;td&gt;难&lt;/td&gt;
+&lt;td&gt;易&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ol start=&#34;9&#34;&gt;
+&lt;li&gt;哪几种技术手段可以加快存储系统的访问速度&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;增加cache，利用空间局部性和时间局部性减少内存访问时间&lt;/li&gt;
+&lt;li&gt;cache优化，多级cache减少缺失损失，非阻塞cache，流水化cache访问&lt;/li&gt;
+&lt;li&gt;采用交叉式存储方式提高内存带宽&lt;/li&gt;
+&lt;li&gt;采用虚拟内存机制降低内存缺失损失&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;10&#34;&gt;
+&lt;li&gt;一台机器的指令系统有哪几类典型指令&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;==答：==数据传送类指令；算术运算类指令；逻辑运算类指令；程序控制类指令；
+输入输出类指令；字符串类指令；系统控制类指令；特权指令&lt;/p&gt;
+&lt;ol start=&#34;11&#34;&gt;
+&lt;li&gt;存储系统中加入cache存储器的目的？有哪些地址映射方式，各有什么特点？&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;==答：==Cache是一种高速缓冲存储器，为了解决CPU与主存之间速度不匹配。
+==方式：==全相联映射方式，一种带全部块地址一起保存的方法，可使主存的一块直接拷贝到cache中的任意一行上，非常灵活；直接映射方式： 优点是硬件简单，成本低，缺点是每个主存块只有一个固定的行位置可存放；组相联映射方式：它是前两者的折衷方案，适度的兼顾了二者的优点有尽量避免其缺点，从灵活性、命中率、硬件投资来说较为理想，因而得到了普遍采用。&lt;/p&gt;
+&lt;ol start=&#34;12&#34;&gt;
+&lt;li&gt;DMA传送数据流程图&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://CandyBliss.github.io/clip_image002-1719594134125-3.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;img&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;ol start=&#34;13&#34;&gt;
+&lt;li&gt;安腾处理机的“分支推断”技术的基本思想&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;==答：==该技术将传统的&amp;quot;if-else-then&amp;quot;分支结构转变为无分支的顺序/并行代码，以避免由于错误预测分支而付出代价。当处理机能够确认分支的所有的可能的后续路径开始并执行多段代码并暂存各段代码的执行结果，直到处理机确认分支转移与否的条件是真是假时，处理机再把应该选择的路径的指令执行结果保留下来。&lt;/p&gt;
+&lt;ol start=&#34;14&#34;&gt;
+&lt;li&gt;为什么在计算机系统引入DMA方式来交换数据？若使用总线周期挪用方式，DMA控制器占用总线进行数据交换期间，CPU处于何种状态？&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;==答：==为了减轻CPU对I/O操作的控制，使得CPU的效率有了提高；
+==两种情况：==CPU不需要访问内存；I/O访内优先，因为I/O访内有时间要求，前一个I/O数据必须在下一个访内请求到来之前存取完毕。&lt;/p&gt;
+&lt;ol start=&#34;15&#34;&gt;
+&lt;li&gt;简述磁表面存储器的读/写原理。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;==答：==在磁表面存储器中，利用一种称为“磁头”的装置来形成和判别磁层中的不同磁化状态。写入时，利用磁头使载磁体（盘片）具有不同的磁化状态，而在读出时又利用磁头来判别这些不同的磁化状态。&lt;/p&gt;
+&lt;ol start=&#34;16&#34;&gt;
+&lt;li&gt;画图说明当代总线的内部结构与外部功能部件的联系，做简要说明。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://CandyBliss.github.io/clip_image002.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;img&#34;
+	
+	
+&gt;
+在当代总线结构中，CPU和他私有的cache一起作为一个模块与总线相连。系统中允许有多个这样的处理模块，而总线控制器完成几个总线请求者之间的协调与仲裁&lt;/p&gt;
+&lt;ol start=&#34;16&#34;&gt;
+&lt;li&gt;比较Cache与虚存的异同
+==同：==cache和虚拟存储器都提高了系统性能，应用局部性原理，充分发挥相对高速设备的性能。
+==异：==cache是为了解决系统速度问题，虚拟存储器是为了解决主存储器容量问题。cache由硬件实现，对程序员透明，虚拟存储器软硬件共同实现，对系统程序员不透明，对普通程序员透明。&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
