@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Test on CandyBliss</title>
+        <link>https://CandyBliss.github.io/tags/test/</link>
+        <description>Recent content in Test on CandyBliss</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <lastBuildDate>Fri, 28 Jun 2024 15:03:31 +0800</lastBuildDate><atom:link href="https://CandyBliss.github.io/tags/test/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>First Test</title>
+        <link>https://CandyBliss.github.io/p/first-test/</link>
+        <pubDate>Fri, 28 Jun 2024 15:03:31 +0800</pubDate>
+        
+        <guid>https://CandyBliss.github.io/p/first-test/</guid>
+        <description>&lt;h2 id=&#34;文件创建&#34;&gt;文件创建
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;hugo new content/post/[文件名]/文件名.md&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;文件上传&#34;&gt;文件上传
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;首先在主目录运行命令：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;hugo&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;cd public&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git add .&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git commit -m &amp;quot;add blog&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git push&lt;/code&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
